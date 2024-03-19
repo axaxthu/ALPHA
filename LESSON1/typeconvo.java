@@ -10,7 +10,7 @@ public class typeconvo {
         float num=sc.nextInt(); //here automatic type conversion happens
         //int num=sc.nextFloat(); this is error since float is bigger than int
         System.out.println(num);
-
+        sc.close();
     }
 }
 /*RULES FOR TYPE CONVERSION
