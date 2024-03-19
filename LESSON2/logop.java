@@ -6,7 +6,7 @@ public class logop {
         //int b=1;
         //System.out.println(a&&b); this is an error statement in java(you cant compare numbers using logical operators)
         System.out.println((3>2)&&(4>3));
-        System.out.println((4>2)||(5>7));
+        System.out.println((3>4)||(9>7));
         System.out.println(!(3>1));
     }
     
