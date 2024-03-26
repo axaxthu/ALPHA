@@ -3,7 +3,12 @@ import java.util.*;
 public class prime {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+
         int n=sc.nextInt();
+        if(n==1){
+            System.out.println("NEITHER PRIME NOR COMPOSITE");
+            System.exit(02);
+        }
         if(n==2){
             System.out.println("PRIME NO");
         }
